@@ -1,0 +1,29 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "arashk.y",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@types/ws": "^8.5.14",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5",
+    "validator": "^13.12.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "@types/validator": "^13.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
